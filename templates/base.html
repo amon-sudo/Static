@@ -1,12 +1,12 @@
 
 <html >
 <head>
-    <title>{% title%} {% endblock %}</title>
+    <title>{% block title%} {% endblock %}</title>
     <link rel="stylesheet" href="{{url_for('static', filename='static.css')}}">
 </head>
 <body>
     {%block content %}
-
+        <p>to</p>
     {%endblock %}
 </body>
 </html>
